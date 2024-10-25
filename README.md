@@ -17,5 +17,23 @@ The nonprofit foundation Alphabet Soup wants a tool that can help it select the 
 
 - **Compiling, Training, and Evaluating the Model**
     - We had 2 hidden layers, first one with 80 neurons and the second one with 30 neurons. Activation function were relu for the two hidden layers and sigmoid for the output layer. 
+    
+    <div align="center">
+    <img src="https://github.com/elgnol/deep-learning-challenge/blob/main/Images/Alphabet_Model.png" alt="orignal_model" width="900"/>
+    </div>
+    
     - Our target model performance was 75 percent or greater, however we were not able to achieve this with our model only having the accuracty of around 72.8 percent
+    
+    <div align="center">
+    <img src="https://github.com/elgnol/deep-learning-challenge/blob/main/Images/Model_Accuracy.png" alt="orignal_model_accuracy" width="900"/>
+    </div>
+    
     - We took some steps to attempt to increase the model performance. We increased the neurons in each layer, added another hidden layer, and changed the activation function for two of the three hidden layers. Our accuracy after doing these changes was still around the same at 72.81 percent.
+    
+    <div align="center">
+    <img src="https://github.com/elgnol/deep-learning-challenge/blob/main/Images/Model_Optimized.png" alt="optimized_model" width="900"/>
+    </div>
+
+    <div align="center">
+    <img src="https://github.com/elgnol/deep-learning-challenge/blob/main/Images/Accuracy_Optimized.png" alt="optimized_accuracy" width="900"/>
+    </div>
